@@ -207,7 +207,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(435, 295);
+            this.ClientSize = new System.Drawing.Size(435, 285);
             this.Controls.Add(this.indexer);
             this.Controls.Add(this.Replace);
             this.Controls.Add(this.Rem_but);

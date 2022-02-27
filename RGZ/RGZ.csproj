@@ -46,11 +46,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="LR7.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="LR7.designer.cs">
+      <DependentUpon>LR7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LR6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LR6.designer.cs">
+      <DependentUpon>LR6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LR5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LR5.designer.cs">
+      <DependentUpon>LR5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
     </Compile>
     <Compile Include="LR1.cs">
       <SubType>Form</SubType>
@@ -79,8 +97,17 @@
     <Compile Include="Module.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="LR7.resx">
+      <DependentUpon>LR7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LR6.resx">
+      <DependentUpon>LR6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LR5.resx">
+      <DependentUpon>LR5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LR1.resx">
       <DependentUpon>LR1.cs</DependentUpon>

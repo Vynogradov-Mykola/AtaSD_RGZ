@@ -35,6 +35,7 @@
             this.LR5 = new System.Windows.Forms.Button();
             this.LR6 = new System.Windows.Forms.Button();
             this.LR7 = new System.Windows.Forms.Button();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.SuspendLayout();
             // 
             // Lr1
@@ -85,6 +86,7 @@
             this.LR5.TabIndex = 4;
             this.LR5.Text = "LR5";
             this.LR5.UseVisualStyleBackColor = true;
+            this.LR5.Click += new System.EventHandler(this.LR5_Click);
             // 
             // LR6
             // 
@@ -94,6 +96,7 @@
             this.LR6.TabIndex = 5;
             this.LR6.Text = "LR6";
             this.LR6.UseVisualStyleBackColor = true;
+            this.LR6.Click += new System.EventHandler(this.LR6_Click);
             // 
             // LR7
             // 
@@ -103,12 +106,25 @@
             this.LR7.TabIndex = 6;
             this.LR7.Text = "LR7";
             this.LR7.UseVisualStyleBackColor = true;
+            this.LR7.Click += new System.EventHandler(this.LR7_Click);
+            // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Location = new System.Drawing.Point(124, 332);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(77, 17);
+            this.linkLabel1.TabIndex = 7;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "github.com";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // RGZ
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(331, 450);
+            this.ClientSize = new System.Drawing.Size(331, 359);
+            this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.LR7);
             this.Controls.Add(this.LR6);
             this.Controls.Add(this.LR5);
@@ -119,6 +135,7 @@
             this.Name = "RGZ";
             this.Text = "RGZ";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -131,6 +148,7 @@
         private System.Windows.Forms.Button LR5;
         private System.Windows.Forms.Button LR6;
         private System.Windows.Forms.Button LR7;
+        private System.Windows.Forms.LinkLabel linkLabel1;
     }
 }
 

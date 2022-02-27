@@ -42,7 +42,7 @@
             // 
             // ZADANIE
             // 
-            this.ZADANIE.Location = new System.Drawing.Point(12, 86);
+            this.ZADANIE.Location = new System.Drawing.Point(14, 12);
             this.ZADANIE.Name = "ZADANIE";
             this.ZADANIE.Size = new System.Drawing.Size(149, 23);
             this.ZADANIE.TabIndex = 0;
@@ -52,7 +52,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(167, 86);
+            this.textBox1.Location = new System.Drawing.Point(169, 12);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
@@ -61,7 +61,7 @@
             // 
             // BPRINT
             // 
-            this.BPRINT.Location = new System.Drawing.Point(12, 115);
+            this.BPRINT.Location = new System.Drawing.Point(14, 41);
             this.BPRINT.Name = "BPRINT";
             this.BPRINT.Size = new System.Drawing.Size(149, 23);
             this.BPRINT.TabIndex = 2;
@@ -71,7 +71,7 @@
             // 
             // serch
             // 
-            this.serch.Location = new System.Drawing.Point(12, 144);
+            this.serch.Location = new System.Drawing.Point(14, 70);
             this.serch.Name = "serch";
             this.serch.Size = new System.Drawing.Size(149, 23);
             this.serch.TabIndex = 3;
@@ -81,7 +81,7 @@
             // 
             // zadanie_2
             // 
-            this.zadanie_2.Location = new System.Drawing.Point(12, 174);
+            this.zadanie_2.Location = new System.Drawing.Point(14, 100);
             this.zadanie_2.Name = "zadanie_2";
             this.zadanie_2.Size = new System.Drawing.Size(149, 23);
             this.zadanie_2.TabIndex = 4;
@@ -91,7 +91,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(613, 86);
+            this.button1.Location = new System.Drawing.Point(615, 12);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(175, 31);
             this.button1.TabIndex = 5;
@@ -101,7 +101,7 @@
             // 
             // Hsearch
             // 
-            this.Hsearch.Location = new System.Drawing.Point(613, 124);
+            this.Hsearch.Location = new System.Drawing.Point(615, 50);
             this.Hsearch.Name = "Hsearch";
             this.Hsearch.Size = new System.Drawing.Size(175, 43);
             this.Hsearch.TabIndex = 6;
@@ -111,7 +111,7 @@
             // 
             // KRemove
             // 
-            this.KRemove.Location = new System.Drawing.Point(13, 204);
+            this.KRemove.Location = new System.Drawing.Point(15, 130);
             this.KRemove.Name = "KRemove";
             this.KRemove.Size = new System.Drawing.Size(148, 23);
             this.KRemove.TabIndex = 7;
@@ -121,7 +121,7 @@
             // 
             // RELH
             // 
-            this.RELH.Location = new System.Drawing.Point(613, 174);
+            this.RELH.Location = new System.Drawing.Point(615, 100);
             this.RELH.Name = "RELH";
             this.RELH.Size = new System.Drawing.Size(175, 38);
             this.RELH.TabIndex = 8;
@@ -131,7 +131,7 @@
             // 
             // aller
             // 
-            this.aller.Location = new System.Drawing.Point(13, 234);
+            this.aller.Location = new System.Drawing.Point(15, 160);
             this.aller.Name = "aller";
             this.aller.Size = new System.Drawing.Size(148, 23);
             this.aller.TabIndex = 9;
@@ -139,11 +139,11 @@
             this.aller.UseVisualStyleBackColor = true;
             this.aller.Click += new System.EventHandler(this.aller_Click);
             // 
-            // Form1
+            // LR2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 327);
             this.Controls.Add(this.aller);
             this.Controls.Add(this.RELH);
             this.Controls.Add(this.KRemove);
@@ -154,7 +154,7 @@
             this.Controls.Add(this.BPRINT);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.ZADANIE);
-            this.Name = "Form1";
+            this.Name = "LR2";
             this.Text = "LR2";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);

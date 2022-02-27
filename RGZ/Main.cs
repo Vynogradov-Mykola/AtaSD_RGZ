@@ -40,5 +40,30 @@ namespace RGZ
             LR4.LR4 form = new LR4.LR4();
             form.Show();
         }
+
+        private void LR5_Click(object sender, EventArgs e)
+        {
+            LR5.LR5 form = new LR5.LR5();
+            form.Show();
+        }
+
+        private void LR6_Click(object sender, EventArgs e)
+        {
+            LR6.LR6 form = new LR6.LR6();
+            form.Show();
+        }
+
+        private void LR7_Click(object sender, EventArgs e)
+        {
+            LR7.LR7 form = new LR7.LR7();
+            form.Show();
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            this.linkLabel1.LinkVisited = true;
+            System.Diagnostics.Process.Start("https://github.com/Vynogradov-Mykola/AtaSD_RGZ");
+
+        }
     }
 }
