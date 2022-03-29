@@ -266,11 +266,11 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(431, 94);
+            this.label5.Location = new System.Drawing.Point(423, 94);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(95, 17);
+            this.label5.Size = new System.Drawing.Size(111, 17);
             this.label5.TabIndex = 27;
-            this.label5.Text = "Serednya_ZP";
+            this.label5.Text = "Zarobitnya plata";
             // 
             // INSIDE
             // 

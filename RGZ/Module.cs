@@ -76,7 +76,7 @@ namespace LR1
         }
         public static DL_NODE[] sorting(DL_NODE[] arr, int len) //create and sorting Pyramid
         {
-            
+            for (int i = 0; i < arr.Length; i++) arr[i].Ser_zp = arr[i].Ser_zp / arr[i].Kolvo;
             for (int i = len / 2 - 1; i >= 0; --i)
             {
                 long prev_i = i;
@@ -99,6 +99,7 @@ namespace LR1
                 }
             }
             int iter = 0;
+          
             while (iter < arr.Length)    //if Ser_zp ravno, perevaga kolvo rabotnikov
             {
                 for (int a = 0; a < arr.Length; a++)

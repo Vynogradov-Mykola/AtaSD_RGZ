@@ -44,7 +44,7 @@
             this.Lr1.Name = "Lr1";
             this.Lr1.Size = new System.Drawing.Size(306, 40);
             this.Lr1.TabIndex = 0;
-            this.Lr1.Text = "LR1";
+            this.Lr1.Text = "Пірамідальне сортування";
             this.Lr1.UseVisualStyleBackColor = true;
             this.Lr1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -54,7 +54,7 @@
             this.Lr2.Name = "Lr2";
             this.Lr2.Size = new System.Drawing.Size(306, 40);
             this.Lr2.TabIndex = 1;
-            this.Lr2.Text = "LR2";
+            this.Lr2.Text = "Структури даних";
             this.Lr2.UseVisualStyleBackColor = true;
             this.Lr2.Click += new System.EventHandler(this.Lr2_Click);
             // 
@@ -64,7 +64,7 @@
             this.Lr3.Name = "Lr3";
             this.Lr3.Size = new System.Drawing.Size(306, 40);
             this.Lr3.TabIndex = 2;
-            this.Lr3.Text = "LR3";
+            this.Lr3.Text = "Жадібні алгоритми";
             this.Lr3.UseVisualStyleBackColor = true;
             this.Lr3.Click += new System.EventHandler(this.Lr3_Click);
             // 
@@ -74,7 +74,7 @@
             this.Lr4.Name = "Lr4";
             this.Lr4.Size = new System.Drawing.Size(306, 40);
             this.Lr4.TabIndex = 3;
-            this.Lr4.Text = "LR4";
+            this.Lr4.Text = "Динамічне програмування";
             this.Lr4.UseVisualStyleBackColor = true;
             this.Lr4.Click += new System.EventHandler(this.Lr4_Click);
             // 
@@ -84,7 +84,7 @@
             this.LR5.Name = "LR5";
             this.LR5.Size = new System.Drawing.Size(306, 40);
             this.LR5.TabIndex = 4;
-            this.LR5.Text = "LR5";
+            this.LR5.Text = "Алгоритми обходу графів";
             this.LR5.UseVisualStyleBackColor = true;
             this.LR5.Click += new System.EventHandler(this.LR5_Click);
             // 
@@ -94,7 +94,7 @@
             this.LR6.Name = "LR6";
             this.LR6.Size = new System.Drawing.Size(306, 40);
             this.LR6.TabIndex = 5;
-            this.LR6.Text = "LR6";
+            this.LR6.Text = "Алгоритми пошуку найкоротших шляхів";
             this.LR6.UseVisualStyleBackColor = true;
             this.LR6.Click += new System.EventHandler(this.LR6_Click);
             // 
@@ -104,7 +104,7 @@
             this.LR7.Name = "LR7";
             this.LR7.Size = new System.Drawing.Size(306, 40);
             this.LR7.TabIndex = 6;
-            this.LR7.Text = "LR7";
+            this.LR7.Text = "Моделювання транспортної мережі";
             this.LR7.UseVisualStyleBackColor = true;
             this.LR7.Click += new System.EventHandler(this.LR7_Click);
             // 
